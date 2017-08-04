@@ -1,5 +1,5 @@
 @echo off
 call Scripts\activate.bat
-set FLASK_APP=source\mainApp.py
+set FLASK_APP=mainApp.py
 flask run
 pause
