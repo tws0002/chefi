@@ -1,5 +1,4 @@
 @echo off
-call Scripts\activate.bat
-set FLASK_APP=mainApp.py
-flask run
+call flask\Scripts\activate.bat
+python.exe run.py
 pause
